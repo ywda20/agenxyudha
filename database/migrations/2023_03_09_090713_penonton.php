@@ -18,7 +18,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('umur'); 
-            $table->string('telp'); 
+            $table->string('telp');
+            $table->boolean('checkin')->default(false);
             $table->timestamps();
         });
     }
