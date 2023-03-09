@@ -9,7 +9,7 @@ class PenontonController extends Controller
 {
      //Fungsi Read Genset
      public function index(){
-        return view('backend.aset.index',[
+        return view('frontend.index',[
             'title' => 'Penonton',
             'audience' => Penonton::all()
         ]);
