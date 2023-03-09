@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('umur'); 
             $table->string('telp'); 
-            $table->timestamps("tanggalBeli");
+            $table->timestamps('tgl_beli');
         });
     }
 
